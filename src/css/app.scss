@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu);
+body{
+    font-family: 'Ubuntu', sans-serif;
+    height : 100%;
+    width : 100%;
+    overflow: auto;
+}
+
+ul{
+	padding : 0px;
+    margin : 0px;
+}
+li{
+	list-style: none;
+}
+
+div.ui-datepicker{
+    width : 300px;
+}
+#app{
+
+    .date{
+        width: 300px;
+        margin: 0px auto;
+
+        input{
+            cursor: pointer;
+        }
+    }
+
+    .boxes{
+        width: 750px;
+        height : 100%;
+        overflow:auto;
+        margin : 50px auto;
+
+        .years{
+            margin-left: 5px;
+
+            .weeks{
+                .week{
+                    display: inline-block;
+                    height : 10px;
+                    width : 10px;
+                    border : 1px solid grey;
+                    margin-right: 3.5px;
+
+                    &.marked{
+                        background-color:skyblue;
+                    }
+                }
+            }
+        }
+
+        .week-marking{
+            margin-left: 24px;
+
+            ul{
+                li{
+                    display: inline-block;
+                    height : 10px;
+                    width : 10px;
+                }
+            }
+        }
+
+        .group{
+            clear:both;
+            .year-marking{
+                width: 20px;
+
+                ul{
+                    li{
+                        height: 10px;
+                        width: 10px;
+                        display:block;
+                    }
+                }
+            }
+
+            .year-marking,
+            .years{
+                display: inline-block;
+                float:left;
+            }
+        }
+    }
+
+}
+
+

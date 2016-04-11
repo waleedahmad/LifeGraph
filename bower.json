@@ -1,0 +1,23 @@
+{
+  "name": "human_life",
+  "authors": [
+    "Waleed Ahmad <waleedgplus@gmail.com>"
+  ],
+  "description": "LifeGraph app",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "jquery-ui": "^1.11.4",
+    "bootstrap": "^3.3.6"
+  }
+}
